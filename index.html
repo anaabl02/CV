@@ -8,10 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="cv-header">
+            <img src="img/20250812_162551.jpg" alt="Foto de perfil" class="profile-pic">
             <h1>Ana María Beltrán López</h1>
             <p>Desarrolladora de Software</p>
-        </header>
+          </header>
+          
 
         <section class="studies">
             <h2>ESTUDIOS</h2>
@@ -28,36 +30,41 @@
         </section>
 
         <section class="experience">
-            <h2>EXPERIENCIA LABORAL</h2>
-            <div class="job">
-                <h3>Prácticas Marketing y Publicidad</h3>
-                <div>
-                   <p>Industrias Metálicas Anro - Tomelloso</p> 
-                   <p>- Redacción de blogs <br>- Edición de Vídeo <br>- Actualización de la página web <br>- Diseño de flyers</p>
-                </div>
-            </div>
-            <div class="job">
-                <h3>Prácticas Curso Dual </h3>
-                <div>
-                   <p>Apigon Publicidad - Tomelloso</p> 
-                   <p>- Serigrafía <br>- Edición de Vídeo <br>- Actualización de la página web <br>- Diseño Gráfico <br>- Impresión Digital</p>
-                </div>
+            <h2><span class="icon"></span> EXPERIENCIA</h2>
+            <div class="accordion-item">
+              <button class="accordion-button active">
+                Industrias Metálicas Anro - Tomelloso
+                <span class="arrow">&#9650;</span>
+              </button>
+              <div class="accordion-content show">
+                <p>- Redacción de blogs <br>- Edición de Vídeo <br>- Actualización de la página web <br>- Diseño de flyers</p>
+              </div>
             </div>
         </section>
+          
+            <div class="accordion-item">
+              <button class="accordion-button">
+                Apigon Publicidad - Tomelloso
+                <span class="arrow">&#9660;</span>
+              </button>
+              <div class="accordion-content">
+                <p>- Serigrafía <br>- Edición de Vídeo <br>- Actualización de la página web <br>- Diseño Gráfico <br>- Impresión Digital</p>
+              </div>
+            </div>
+          
 
         <section class="skills">
             <h2>LENGUAJES - APLICACIONES</h2>
             <ul>
-                <li>HTML5</li>
+                <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
+                <li>JavaScript / Java</li>
                 <li>Spring Boot</li>
                 <li>Canva</li>
                 <li>WordPress</li>
                 <li>Programas Adobe: Photoshop, Illustrator, InDesing</li>
-                <li></li>
             </ul>
-        </section>
+        
 
         <section class="studies">
             <h2>DATOS PERSONALES</h2>
@@ -74,5 +81,7 @@
             <p><strong>Email:</strong> anmarbelt@gmail.com</p>
         </section>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
